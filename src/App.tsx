@@ -1,13 +1,15 @@
 import React from 'react';
 import Layout from './components/Layout';
 import GlobalStyles from './styles/GlobalStyles';
+import { ThemeProvider } from 'styled-components';
+import dark from './styles/Themes/Dark';
 
 const App: React.FC = () => {
     return (
-        <React.Fragment>
+        <ThemeProvider theme={dark}>
             <GlobalStyles />
             <Layout />
-        </React.Fragment>
+        </ThemeProvider>
     );
 };
 
