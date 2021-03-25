@@ -4,8 +4,8 @@ export default {
         primary: '#dcdcdc',
         secondary: '#fff',
         tertiary: '#f5f5f5',
-        white: '#fff',
-        black: '#000',
+        white: '#000', // * Porque a cor foi invertida,
+        black: '#fff', // * logo invertemos aqui tbm!
         gray: '#bfbfbf',
         success: '#03bb85',
         info: '#3b5998',
