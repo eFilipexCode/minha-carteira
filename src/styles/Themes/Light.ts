@@ -13,4 +13,4 @@ const light = {
     },
 };
 
-export default DeviceLightEvent;
+export default light;
