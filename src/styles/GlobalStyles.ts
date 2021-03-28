@@ -11,6 +11,10 @@ export default createGlobalStyle`
         scroll-behavior: smooth; // Personal Addition
     }
 
+    body {
+        overflow: hidden;
+    }
+
     html, body, #root {
         height: 100%;
     }
